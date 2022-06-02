@@ -8,7 +8,7 @@
     font-family: RaceFont;
 }
 
-:root{
+:root {
     --hue-neutral: 200;
     --hue-wrong: 0;
     --hue-correct: 145;
@@ -26,15 +26,15 @@ align-items: center;
 background-color: hsl(var(--hue), 100%, 20%);
 }
 
-body.correct{
+body.correct {
     --hue: var(--hue-correct);
 }
 
-body.wrong{
+body.wrong {
     --hue: var(--hue-wrong);
 }
 
-.container{
+.container {
     width: 800px;
     max-width: 80%;
     background-color: white;
@@ -43,18 +43,24 @@ body.wrong{
     box-shadow: 0 0 10px 2px;
 }
 
-.btn-grid{
+.btn-grid {
     display: grid;
     grid-template-columns: repeat(2, auto);
     gap: 10px;
     margin: 20px 0;
 }
 
-.btn{
+.btn {
     --hue: var(--hue-neutral);
     border: 1.5px solid hsl(var(--hue), 100%, 30%);
     background-color: hsl(var(--hue), 100%, 50%);
     border-radius: 5px;
     padding: 5px 10px;
+    color: white;
+    outline: none;
+}
+
+.btn:hover {
+border-color: black;
 }
 
