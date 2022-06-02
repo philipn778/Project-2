@@ -32,7 +32,7 @@ function showQuestion(question) {
         }
         button.addEventListener('click', selectAnswer)
         answerButtonsElement.appendChild(button)
-    }}
+    })
 }
 
 function selectAnswer (e) {
