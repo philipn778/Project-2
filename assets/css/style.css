@@ -8,6 +8,13 @@
     font-family: RaceFont;
 }
 
+h1{
+    position: absolute;
+    top: 25%;
+    color: white;
+
+}
+
 :root {
     --hue-neutral: 200;
     --hue-wrong: 0;
