@@ -96,5 +96,41 @@ const questions = [
             {text: 'Shark', correct: false}
         ]
     },
+    {
+        question: 'Which is the deepest ocean in the world?',
+        answers: [
+            {text: 'Atlantic Ocean', correct: false},
+            {text: 'Arabic Ocean', correct: false},
+            {text: 'Indian Ocean', correct: false},
+            {text: 'The Pacific Ocean', correct: true}
+        ]
+    },
+    {
+        question: 'Who is the richest person on earth?',
+        answers: [
+            {text: 'Jeff Bezos (Amazon)', correct: false},
+            {text: 'Elon Musk (Tesla)', correct: true},
+            {text: 'Bill Gates (Windows)', correct: false},
+            {text: 'Ingvar Kamprad (IKEA)', correct: false}
+        ]
+    },
+    {
+        question: 'How tall is the tallest person on earth?',
+        answers: [
+            {text: '256cm', correct: false},
+            {text: '272cm', correct: true},
+            {text: '291cm', correct: false},
+            {text: '234cm', correct: false}
+        ]
+    },
+    {
+        question: 'Who is the most followed person on Instagram?',
+        answers: [
+            {text: 'Leo Messi', correct: false},
+            {text: 'Kylie Jenner', correct: false},
+            {text: 'Cristiano Ronaldo', correct: true},
+            {text: 'Kim Kardashian', correct: false}
+        ]
+    },
 
 ]
